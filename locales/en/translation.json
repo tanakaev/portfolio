@@ -1,0 +1,33 @@
+{
+  "menu": " <0>Menu</0><1><0><0 href=''>Home</0></0><1><0 href=''>About Me</0></1><2><0 href=''>Projects</0></2><3><0 href=''>Contact</0></3></1>",
+
+  "description": "<0>I am a freelance creator specializing in front-end</0><1>development, copywriting, and web design.</1><2>Let me elevate your brand to new heights.</2>",
+
+  "about": "<0>Who am I ?</0><1>As a freelance web developer and designer,</1><2>I specialize in enhancing your brand's online</2><3>presence by researching and implementing</3><4>effective website solutions. Your website</4><5>is the most important online representation</5><6>of your company, and I focus oncreating custom</6><7>designs that not only capture attention,</7><8>but also improve the user experience.</8>",
+
+  "vision": "<0>Vision & technology</0><1>My vision is to combine your ideas with</1><2>cutting-edge technologies. From responsive</2><3>design to optimized functionality, I will create a</3><4>tailored design that meets your unique needs.</4><5>If you're looking for a front-end developer who can`</5><6>bring your vision to life using the latest</6><7>technologies, you've come to the right place.</7>",
+
+  "capabilities": "<0>Capabilities</0><1><0></0><p>Front-end development</p></1><2><0></0><p>Web Design</p></2><3><0></0><p>Responsive design</p></3><4><0></0><p>Website performance</p></4><5><0></0><p>Accessibility</p></5><6><0></0><p>SEO</p></6><7><0></0><p>Copywriting</p></7>",
+
+  "projectsData": {
+    "Pizzeria": "Pizzeria",
+    "Finishing Works": "Finishing Works",
+    "Renovations": "Renovations",
+    "Printing House": "Printing House"
+  },
+
+  "loading": "<0>Sprache ändert sich.</0><1>Bitte warten ... </1>",
+
+  "contact": "<0 className={styles.welcome}><0>If you have <1 className={styles.color}>reqest</1> or <1 className={styles.color}>questions</1>, do not</0><0>hesitate to use the form.</0></0>",
+
+  "success_msg": "<0>Thank You For</0><1>Reaching Out</1>",
+  "error_msg": "<0>Ooops!</0><1>There was an error.</1>",
+
+  "btn_talk": {
+    "title": "let's talk"
+  },
+
+  "btn_hallo": {
+    "title": "say hallo"
+  }
+}
