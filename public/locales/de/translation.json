@@ -1,0 +1,32 @@
+{
+  "menu": " <0>Menü</0><1><0><0 href=''>Startseite</0></0><1><0 href=''>Über mich</0></1><2><0 href=''>Projekte</0></2><3><0 href=''>Kontakt</0></3></1>",
+
+  "description": "<0>Ich bin ein freiberuflicher Kreativer, spezialisiert auf Front-End</0><1>Entwicklung, Copywriting und Webdesign.</1><2>Lassen Sie mich Ihre Marke auf neue Höhen bringen.</2>",
+
+  "about": "<0>Wer bin Ich?</0><1>Als freiberuflicher Webentwickler und Designer</1><2>habe ich mich darauf spezialisiert, die Online-Präsenz</2><3>Ihrer Marke durch Recherche und Umsetzung effektiver</3><4>Website-Lösungen zu verbessern. Ihre Website ist die</4><5>Ihres wichtigste Online-Präsentation Ihres Unternehmens</5><6>und ich konzentriere mich darauf, maßgeschneiderte</6><7>Designs zu erstellen, die nicht nur Aufmerksamkeit</7><8>erregen, sondern auch die Benutzererfahrung verbessern.</8>",
+
+  "vision": "<0>Vision & Technologie</0><1>Meine Vision ist es, Ihre Ideen mit modernster Technologie</1><2>zu kombinieren. Von responsivem Design bis hin zu</2><3>optimierter Funktionalität werde ich ein maßgeschneidertes</3><4>Design erstellen, das Ihren einzigartigen Anforderungen</4><5>entspricht Wenn Sie einen Front-End-Entwickler suchen,</5><6>der Ihre Vision mithilfe neuester Technologien zum Leben</6><7>erwecken kann, sind Sie bei mir an der richtigen Adresse.</7>",
+
+  "capabilities": "<0>Kompetenzen</0><1><0></0><p>Front-End-Entwicklung</p></1><2><0></0><p>Webdesign</p></2><3><0></0><p>Responsives Design</p></3><4><0></0><p>Optimierung der Website-Performance</p></4><5><0></0><p>Barrierefreiheit</p></5><6><0></0><p>Suchmaschinenoptimierung (SEO)</p></6><7><0></0><p>Texterstellung (Copywriting)</p></7>",
+
+  "projectsData": {
+    "Pizzeria": "Pizzeria",
+    "Finishing Works": "Fertigungsarbeiten",
+    "Renovations": "Renovierungen",
+    "Printing House": "Druckerei"
+  },
+
+  "loading": "<0>Language changing.</0><1>Please wait ... </1>",
+
+  "contact": "<0 className={styles.welcome}><0>Wenn Sie <1 className={styles.color}>Anfragen</1> oder <1 className={styles.color}>Fragen</1>, haben</0><0>zögern Sie nicht, das Formular zu verwenden.</0></0>",
+
+  "success_msg": "<0>Danke für</0><1>die Kontaktaufnahme</1>",
+  "error_msg": "<0>Hoppla!</0><1>Es ist ein Fehler aufgetreten.</1>",
+
+  "btn_talk": {
+    "title": "reden wir"
+  },
+  "btn_hallo": {
+    "title": "sag hallo"
+  }
+}

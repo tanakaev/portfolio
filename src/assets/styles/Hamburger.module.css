@@ -1,0 +1,35 @@
+.circles {
+  width: clamp(3.6rem, 4.4vw, 40px);
+  height: auto;
+  fill: none;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+
+.circle {
+  stroke-width: 0.62rem;
+  stroke: var(--extraColor);
+  transform-origin: center;
+  rotate: 0deg;
+  transition: rotate 0.3s ease-in;
+}
+
+.circleOutter,
+.circleMiddle,
+.circleInner {
+  transform-origin: center;
+  transition: rotate 0.3s ease-out;
+}
+
+.circle.circleOutter {
+  rotate: 180deg;
+}
+
+.circle.circleMiddle {
+  rotate: 180deg;
+}
+
+.circle.circleInner {
+  rotate: 180deg;
+}

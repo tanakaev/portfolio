@@ -1,0 +1,10 @@
+.lens {
+  width: calc(100vw * 0.1);
+  height: calc(
+    100vh * 0.1 - ((clamp(6rem, 8vw, 10rem) - clamp(9rem, 8vw, 16rem) / 2))
+  );
+  background-color: transparent;
+  border: 1px solid rgba(17, 17, 17, 0.2);
+  transform: translate(-25%, -25%);
+  z-index: 10;
+}

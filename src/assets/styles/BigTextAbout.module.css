@@ -1,0 +1,46 @@
+.about_me h4,
+.vision h4,
+.capabilities h4 {
+  font-size: clamp(2.8rem, 6vw, 9.2rem);
+  color: var(--extraColor);
+  line-height: 100%;
+  margin-bottom: clamp(1.8rem, 5vw, 5rem);
+  white-space: nowrap;
+}
+
+.about_me p,
+.vision p,
+.capabilities p {
+  /* width: 100%; */
+  font-size: clamp(1.4rem, 2.9vw, 4.8rem);
+  font-weight: 200;
+  line-height: 140%;
+  /* white-space: nowrap; */
+  white-space: pre-wrap;
+}
+
+.about_me,
+.vision,
+.capabilities {
+  margin-bottom: clamp(4.8rem, 14vw, 14rem);
+}
+
+.skills {
+  margin-top: clamp(1.6rem, 3.8vw, 3.8rem);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skills p {
+  line-height: 100%;
+  white-space: nowrap;
+}
+
+.dot {
+  margin-right: clamp(1.2rem, 1.6vw, 3.4rem);
+  width: clamp(0.5rem, 1vw, 1rem);
+  height: clamp(0.5rem, 1vw, 1rem);
+  border-radius: 50%;
+  background-color: var(--extraColor);
+}

@@ -1,0 +1,48 @@
+.share_modal {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: clamp(6rem, 8vw, 10rem);
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.modal_content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.social_container {
+  border-radius: 100%;
+  margin: 2.4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_icon {
+  position: relative;
+  top: 0;
+  transform: translateX(200%);
+  transition: transform 0.3s;
+}
+
+.social_icon.activeWS {
+  transform: translateX(0);
+  transition-delay: 0;
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
+.social_icon.activeTM {
+  transform: translateX(0);
+  transition-delay: 0.05s;
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
+.social_icon.activeML {
+  transform: translateX(0);
+  transition-delay: 0.1s;
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
